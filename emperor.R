@@ -1,15 +1,22 @@
+#Load Data
+df < - read.csv("https://github.com/kyodahl/romanemperors/blob/master/cleaned_data.csv", 
+                header = FALSE)
 
+#load library
 library("ggplot2")
 
 
-#Generate Summary Statistics---------------------
+#Generate Summary Statistics-------------------------------------------
 
 
-stat.desc(emperors1$lifespan, basic = FALSE)
-stat.desc(emperors1$reignspan, basic = FALSE)
+stat.desc(cleaned_data$lifespan.yr, basic = FALSE)
+stat.desc(cleaned_data$reignspan.yr, basic = FALSE)
+
+#Creating Scatter Plot with Formatting----------------------------------
+
 
 base <-
-ggplot(emperors1, aes(lifespan, reignspan, color = factor(rise)))+
+ggplot(cleaned_data, aes(lifespan.yr, reignspan.yr, color = factor(rise)))+
   geom_jitter()
 base
 
