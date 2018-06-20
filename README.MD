@@ -2,7 +2,7 @@ Roman Emperors, 26 BC to 395 AD
 ===
 May, 2018 DataViz entry for subbreddit r/dataisbeautiful
 
-**[Source]**(https://www.reddit.com/r/dataisbeautiful/comments/8ogk4k/battle_dataviz_battle_for_the_month_of_june_2018/)
+**Source:**(https://www.reddit.com/r/dataisbeautiful/comments/8ogk4k/battle_dataviz_battle_for_the_month_of_june_2018/)
 
 Objective
 ---
@@ -13,7 +13,7 @@ Data
 Data for contest provided and cross-checked by github user "zonination".
 For a full description of variables, original sources and assumptions, refer to data notes
 
-**[Source]**(https://github.com/zonination/emperors/blob/master/README.md)
+**Source:**(https://github.com/zonination/emperors/blob/master/README.md)
 
 Cleaning the Data...
 
